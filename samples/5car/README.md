@@ -11,25 +11,17 @@ This example was developed as a project for Deloitte
 ## Run Jupyter notebooks
 Open the `inspect_5car_data.ipynb` or `inspect_5car_model.ipynb` Jupter notebooks. You can use these notebooks to explore the dataset and run through the detection pipelie step by step.
 
-## Train the Balloon model
-
-Train a new model starting from pre-trained COCO weights
-```
-python3 5car.py train --dataset=/path/to/5car/dataset --weights=coco
-```
-
-Resume training a model that you had trained earlier
-```
-python3 balloon.py train --dataset=/path/to/5car/dataset --weights=last
-```
-
-Train a new model starting from ImageNet weights
-```
-python3 5car.py train --dataset=/path/to/5car/dataset --weights=imagenet
-```
+## Train the model
 
 The code in `5car.py` is set to train for 3K steps (30 epochs of 100 steps each), and using a batch size of 2. 
 Update the schedule to fit your needs.
+
+You can train using the inspect_5car_model.ipynb notebook, or the train_5car.py file.
+
+
+## Evaluate the model
+
+You can train using the inspect_5car_model.ipynb notebook
 
 
 ## Dataset
