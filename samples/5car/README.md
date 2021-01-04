@@ -45,5 +45,7 @@ You can use the transform_images.py to transform your data correctly
 
 
 ## Weights 
-Weights can be found in the logs folder
+Weights can be downloaded here:
+https://drive.google.com/file/d/1R7RA9lvurWwyXYgCZl0QMt4seHUeRSnL/view?usp=sharing
 
+add this .h5 file to logs/5car* and run the model
